@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "prod": "parcel build src/index.html"
+    "prod": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/KP1976/parcel-app-test#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.1.1",
     "sass": "^1.24.0"
   }
 }
