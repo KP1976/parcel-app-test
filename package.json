@@ -4,7 +4,9 @@
   "description": "parcel test application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KP1976/parcel-app-test/issues"
   },
-  "homepage": "https://github.com/KP1976/parcel-app-test#readme"
+  "homepage": "https://github.com/KP1976/parcel-app-test#readme",
+  "devDependencies": {
+    "sass": "^1.24.0"
+  }
 }
