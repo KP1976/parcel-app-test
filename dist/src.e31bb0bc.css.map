@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles\\styles.scss"],"names":[],"mappings":"AAEA;EACC,kBAHM","file":"src.e31bb0bc.css","sourceRoot":"..\\src","sourcesContent":["$sup2: lightgrey;\r\n\r\nbody {\r\n\tbackground-color: $sup2;\r\n}\r\n"]}
